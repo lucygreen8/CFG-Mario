@@ -1,0 +1,124 @@
+#mynav{
+    background-color: rgb(222, 36, 32);
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#button-1{
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+#button-2{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#button1{
+    background-color: rgb(65, 170, 69);
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #button2{
+    background-color: rgb(4, 151, 209);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #button-dropdown{
+    color: rgb(0, 0, 0);
+    text-align: center !important;
+    display: inline-block !important;
+    font-weight: bold !important;
+    width: 40px;
+  }
+
+#myfooter{
+    background-color: rgb(65, 170, 69);
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+
+#mario-logo{
+    width: 200px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+#button-4{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ margin-left: 100px;
+ margin-right: 100px;
+}
+
+#signoff{
+    text-align: center;
+    font-size: 13px;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.social-icon {
+  display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
+  width: 50px;
+  height: 50px;
+  color: #666;
+  background-color: white;
+  justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
+  align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
+  border-radius: 50%;  /* makes it round (circle if width and height are the same) */
+  text-decoration: none !important;
+}
+
+.social-icon:hover {
+  color: #222;  /* change color when hover over the link */
+}
+
+#go-top-button {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: white !important;
+  position: fixed;  /* Fixed/sticky position */
+  bottom: 20px;  /* Place the button 20px from the bottom of the page */
+  right: 30px;  /* Place the button 30px from the right */
+  z-index: 99;  /* Make sure it does not overlap */
+}
+
+.btn-danger {
+  background-color: rgb(222, 36, 32);
+  border-color: rgb(222, 36, 32);
+  font-weight:bold;
+  width: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#scroll-to-top {
+  text-decoration: none;
+}
+
+a { color: inherit}
